@@ -1,6 +1,29 @@
-# SQL Chatbot Using OpenAI & MySQL
+# SQL Chatbot – Natural Language to SQL Query Generator
 
-This chatbot accepts natural language questions and returns results from a real MySQL database using GPT-3.5.
+SQL is a powerful and widely-used language for interacting with structured databases. However, its technical complexity often limits usage to experienced SQL professionals within a company. This chatbot aims to democratize data access by enabling users to write queries in plain English and receive real-time results from a MySQL database.
+
+Powered by **GPT-3.5**, this chatbot translates natural language inputs into valid SQL queries that are executed against a live MySQL database. It simplifies interaction with structured data while preserving query accuracy and execution safety.
+
+---
+
+## Intended Audience & Use Case
+
+This project is ideal for:
+
+- **Data analysts and business users** who need insights but lack SQL knowledge.
+- **Developers** building interfaces that enable natural language querying of structured databases.
+- **Non-technical decision-makers** who want to independently explore business data.
+
+By using this chatbot, users can access database insights without writing SQL, reducing reliance on technical teams and enabling faster, data-informed decisions.
+
+---
+
+## ⚙️ Features
+
+- Connects to a MySQL table (e.g., `employees`)
+- Uses GPT-3.5 to generate SQL queries from natural language
+- Executes queries and displays results in real-time
+- Secure and schema-aware interaction with the database
 
 ## Features:
 - Connects to a MySQL table (`employees`)

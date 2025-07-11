@@ -18,17 +18,12 @@ By using this chatbot, users can access database insights without writing SQL, r
 
 ---
 
-## ⚙️ Features
+## Features
 
 - Connects to a MySQL table (e.g., `employees`)
 - Uses GPT-3.5 to generate SQL queries from natural language
 - Executes queries and displays results in real-time
 - Secure and schema-aware interaction with the database
-
-## Features:
-- Connects to a MySQL table (`employees`)
-- Uses GPT to generate SQL queries
-- Executes query and displays result
 
 ## Technologies:
 - Python

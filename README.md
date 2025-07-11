@@ -25,3 +25,4 @@ This chatbot accepts natural language questions and returns results from a real 
 ![Screenshot (202)](https://github.com/user-attachments/assets/793ada4e-d523-49fa-b271-277ecacc85fc)
 ![Screenshot (201)](https://github.com/user-attachments/assets/71b3503d-9c69-4963-8fff-935477e5f038)
 ![Screenshot (203)](https://github.com/user-attachments/assets/dbda20d4-9b5b-4c60-a7f7-9502598c34b9)
+<img width="1920" height="1031" alt="Screenshot (436)" src="https://github.com/user-attachments/assets/39b6505d-8608-4bb9-9831-708da22710c9" />

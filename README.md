@@ -22,7 +22,8 @@ This chatbot accepts natural language questions and returns results from a real 
 5. Run the app:
    ```streamlit run app.py```
 ## Examples
-![Screenshot (202)](https://github.com/user-attachments/assets/793ada4e-d523-49fa-b271-277ecacc85fc)
-![Screenshot (201)](https://github.com/user-attachments/assets/71b3503d-9c69-4963-8fff-935477e5f038)
-![Screenshot (203)](https://github.com/user-attachments/assets/dbda20d4-9b5b-4c60-a7f7-9502598c34b9)
-![Screenshot (436)](https://github.com/user-attachments/assets/39b6505d-8608-4bb9-9831-708da22710c9)
+![Screenshot (442)](https://github.com/user-attachments/assets/5b10529f-3f0c-44b6-ad36-0790ca688e1d)
+![Screenshot (443)](https://github.com/user-attachments/assets/45dbb374-47db-40a7-bc29-9dd77dbae1bc)
+![Screenshot (441)](https://github.com/user-attachments/assets/c904444b-25ee-4dcf-b988-7e7d50fed21e)
+![Screenshot (440)](https://github.com/user-attachments/assets/9d0b9590-614b-4dbb-8aa4-aef71e5596dc)
+![Screenshot (436)](https://github.com/user-attachments/assets/989c6abe-2cf4-4f2e-b481-6008c4e4c31d)

@@ -1,0 +1,11 @@
+streamlit
+openai
+sqlalchemy
+pymysql
+python-dotenv
+psycopg2-binary
+pandas
+langchain
+tqdm
+cryptography
+

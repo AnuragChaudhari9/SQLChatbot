@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  sql-chatbot:
+    build: .
+    ports:
+      - "8501:8501"  # Streamlit app port mapping
+    volumes:
+      - .:/app       # Mount your current directory into the container
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped

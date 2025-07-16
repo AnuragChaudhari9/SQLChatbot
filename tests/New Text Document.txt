@@ -1,0 +1,25 @@
+# tests/test_sql_tools.py
+
+from utils.sql_tools import create_sqlalchemy_engine, get_schema_overview
+import os
+import pytest
+
+@pytest.fixture
+def mock_env():
+    return {
+        "DB_HOST": "localhost",
+        "DB_PORT": "3306",
+        "DB_NAME": "company_db",
+        "DB_USER": "root",
+        "DB_PASSWORD": "Anurag@1998",
+    }
+
+def test_engine_creation(mock_env):
+    engine = create_sqlalchemy_engine(mock_env)
+    assert engine is not None
+
+def test_schema_extraction(mock_env):
+    engine = create_sqlalchemy_engine(mock_env)
+    schema = get_schema_overview(engine)
+    assert isinstance(schema, dict)
+    assert len(schema) > 0

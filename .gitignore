@@ -1,0 +1,27 @@
+# --- Python-related ---
+__pycache__/
+*.py[cod]
+*.pyo
+
+# --- Testing ---
+.pytest_cache/
+
+# --- Editor-specific (optional) ---
+.vscode/
+*.swp
+
+# --- OS system files ---
+.DS_Store
+Thumbs.db
+
+# --- Secret environment files ---
+utils/.env
+
+# --- Logs ---
+logs/*
+!logs/.gitkeep
+
+# --- Misc archives ---
+*.zip
+*.tar.gz
+*.tar

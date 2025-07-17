@@ -9,7 +9,7 @@ This project demonstrates modern practices in:
 ## Key Features
 
 - **Secure DB Access via .env**  
-  Upload a `.env` file with your database credentials (host, user, password, etc.) to instantly connect to your MySQL database — no hardcoding or environment setup required.
+  Upload a `.env` file with your database credentials (host, user, password, etc.) to instantly connect to your MySQL database; no hardcoding or environment setup required.
 
 - **Natural Language to SQL Conversion**  
   Built using **LangChain** and **OpenAI**, this chatbot translates user queries like “Show me top 5 customers by revenue” into executable SQL.

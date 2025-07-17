@@ -37,21 +37,7 @@ This project solves a major bottleneck in data-driven organizations: **non-techn
 
 All without writing a single line of SQL.
 
----
 
-### Technical Significance (for Data Science & GenAI Roles)
-
-- Shows your **ability to integrate LLMs with structured data sources**, a key use case in Enterprise GenAI.
-- Demonstrates understanding of **data privacy**, **configurable credentials**, and **secure pipelines**.
-- Can be the base for a **retrieval-augmented generation (RAG)** system using company-specific structured data.
-- Helps bridge the gap between **data engineering, MLOps**, and **natural language interfaces** — one of the hottest frontiers in GenAI.
-
----
-
-### Why It Stands Out
-
-- You’re not just building a chatbot.  
-  You’re giving decision-makers **direct access to the brain of their organization: the database** — using the language they already know.
 ## Project Architecture
 
 This project is built with **modularity**, **security**, and **scalability** in mind. Here's how it works:
@@ -157,18 +143,11 @@ DB_NAME=your_database_name
 
 ---
 
-### Security Practices
-
-- The actual `sql.env` file is never committed to version control
-- A reference template `env.example` is provided for guidance
-- `.gitignore` ensures the real `.env` remains private
-
----
-
-### Sample Reference File
+### `.env` for OpenAI key
 
 See the provided example in the repository:  
-`utils/env.example`
+`utils/env.example`.
+This is the env file that will contain your OpenAI key.
 ## Key Features and Use Cases
 
 This SQL Chatbot project blends Natural Language Processing (NLP) with database querying to provide an intuitive and secure data access layer for non-technical stakeholders.
